@@ -3,7 +3,7 @@
 ################################################################################
 require xen-version.inc
 
-RDEPENDS_${PN} = "${PN}-devd"
+RDEPENDS_${PN} += "${PN}-devd"
 
 FLASK_POLICY_FILE = "xenpolicy-${XEN_REL}*"
 FILES_${PN}-flask = " \
