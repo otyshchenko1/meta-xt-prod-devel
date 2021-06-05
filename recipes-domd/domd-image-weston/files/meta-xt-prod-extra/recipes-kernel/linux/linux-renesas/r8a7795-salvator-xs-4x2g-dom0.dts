@@ -6,7 +6,7 @@
  * Copyright (C) 2018 Renesas Electronics Corp.
  */
 
-#include "r8a7795-salvator-xs-4x2g.dts"
+#include "r8a77951-salvator-xs.dts"
 #include "xen-chosen.dtsi"
 
 / {
